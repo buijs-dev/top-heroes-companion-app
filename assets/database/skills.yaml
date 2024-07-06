@@ -1,0 +1,206 @@
+skills:
+  - id: 1
+    heroes: [37]
+    name: 'Eye of Insight'
+    description: 'Reduce skill damage taken for this hero by {}%'
+    boost:
+      main:
+      - part: 1
+        amount:
+          - level: 1
+            number:
+          - level: 2
+            number:
+          - level: 3
+            number:
+          - level: 4
+            number:
+          - level: 5
+            number: 27.5
+          - level: 6
+            number: 28
+          - level: 7
+            number:
+          - level: 8
+            number:
+          - level: 9
+            number:
+          - level: 10
+            number:
+          - level: 11
+            number:
+          - level: 12
+            number:
+          - level: 13
+            number:
+          - level: 14
+            number:
+          - level: 15
+            number:
+      additional:
+        - id: 1
+          stars: 1
+          unlocked:
+            stars:
+            type: gold
+          description: 'Increase the effect bonus by 2.5%.'
+        - id: 2
+          stars: 2
+          unlocked:
+            stars: 5
+            type: red
+          description: 'Increase the effect bonus by 7.5%.'
+        - id: 3
+          stars: 3
+          unlocked:
+            stars: 3
+            type: white
+          description: 'When HP falls below 30%, gain skill damage immunity for 2 second. Cooldown 30 seconds.'
+  - id: 2
+    heroes: [39]
+    name: 'Evolve'
+    description: "Tidecaller's normal attacks can now hit an additional target, adding damage equal to {}% of the Attack to the normal attack."
+    boost:
+      main:
+        - part: 1
+          amount:
+            - level: 1
+              number:
+            - level: 2
+              number:
+            - level: 3
+              number:
+            - level: 4
+              number:
+            - level: 5
+              number: 42.5
+            - level: 6
+              number: 44
+            - level: 7
+              number:
+            - level: 8
+              number:
+            - level: 9
+              number:
+            - level: 10
+              number:
+            - level: 11
+              number:
+            - level: 12
+              number:
+            - level: 13
+              number:
+            - level: 14
+              number:
+            - level: 15
+              number:
+      additional:
+        - id: 1
+          stars: 1
+          unlocked:
+            stars:
+            type: gold
+          description: 'Additional damage increases by 7.5%. Guardian Water Elemental can perform a heavy strike causing 1 seconds of stun. Cooldown: 8 seconds.'
+        - id: 2
+          stars: 2
+          unlocked:
+            stars: 5
+            type: red
+          description: "Additional damage increases by 7.5%. Ranged Water Elemental's normal attacks now pierce through enemies and adds a 3% vulnerability effect for 6 seconds, up to 5 stacks."
+        - id: 3
+          stars: 3
+          unlocked:
+            stars: 3
+            type: white
+          description: "Additional damage increases by 7.5%. Water Elemental Lord's attack speed increases by 60%."
+  - id: 3
+    heroes: [39]
+    name: 'Hydro Hammer'
+    description: "The Hydro Hammer strikes targets and nearby enemies with a water-formed hammer, causing damage equal to {}% of the Attack, stunning the targets for 1s and summoning a Guardian Water Elemental at the target, inheriting {}% of Tidecaller's current Attack and HP, lasts 12 seconds. Cooldown: 10 seconds."
+    boost:
+      main:
+        - part: 1
+          amount:
+            - level: 1
+              number:
+            - level: 2
+              number:
+            - level: 3
+              number:
+            - level: 4
+              number:
+            - level: 5
+              number:
+            - level: 6
+              number:
+            - level: 7
+              number:
+            - level: 8
+              number:
+            - level: 9
+              number:
+            - level: 10
+              number: 220
+            - level: 11
+              number: 225
+            - level: 12
+              number:
+            - level: 13
+              number:
+            - level: 14
+              number:
+            - level: 15
+              number:
+        - part: 2
+          amount:
+            - level: 1
+              number:
+            - level: 2
+              number:
+            - level: 3
+              number:
+            - level: 4
+              number:
+            - level: 5
+              number:
+            - level: 6
+              number:
+            - level: 7
+              number:
+            - level: 8
+              number:
+            - level: 9
+              number:
+            - level: 10
+              number: 70
+            - level: 11
+              number: 72
+            - level: 12
+              number:
+            - level: 13
+              number:
+            - level: 14
+              number:
+            - level: 15
+              number:
+      additional:
+        - id: 1
+          stars: 1
+          unlocked:
+            stars:
+            type: gold
+          description: "Skill damage increases by 25%, Guardian Water Elemental's inherited attributes increase by 10%, Guardian Water Elemental explodes upon death, dealing damage equal to 10% of its HP to a range of targets."
+        - id: 2
+          stars: 2
+          unlocked:
+            stars:
+            type: red
+          description: "Skill damage increases by 25%, Guardian Water Elemental's inherited attributes increase by 10%."
+        - id: 3
+          stars: 3
+          unlocked:
+            stars: 1
+            type: white
+          description: "Skill damage increases by 25%, Guardian Water Elemental's inherited attributes increase by 10%, the number of summoned Guardian Water Elementals increases by 1."
+
+

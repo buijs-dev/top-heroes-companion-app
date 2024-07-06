@@ -1,0 +1,13 @@
+factions:
+  - id: 1
+    name: 'League'
+    strength: 2
+    weakness: 3
+  - id: 2
+    name: 'Nature'
+    strength: 3
+    weakness: 1
+  - id: 3
+    name: 'Horde'
+    strength: 1
+    weakness: 2

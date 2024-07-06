@@ -1,0 +1,49 @@
+name: top_heroes_companion_app
+description: Companion App for the Top Heroes mobile game
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  auto_size_text: ^3.0.0
+  fluttericon: ^2.0.0
+  flutter_reorderable_grid_view: ^5.0.1
+  flutter_staggered_animations: ^1.1.1
+  flex_color_scheme: ^7.3.1
+  get_storage: ^2.1.1
+  google_fonts: ^6.2.1
+  responsive_builder: ^0.7.1
+  web_smooth_scroll: ^1.1.0
+  yaml: ^3.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.0
+  build_web_compilers: ^4.0.4
+  dhttpd: ^4.1.0
+  flutter_gen_runner:
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/database/
+    - assets/images/
+    - assets/images/heroes/
+
+flutter_gen:
+  output: lib/generated/
+
+flutter_launcher_icons:
+  web:
+    generate: true
+    image_path: "assets/icon/ic_launcher.png"

@@ -1,0 +1,37 @@
+classes:
+  - id: 1
+    name: 'Tank'
+    description: 'This hero excels at tanking damage in the front row, reducing damage taken by 5%.'
+  - id: 2
+    name: 'Sustained'
+    description: 'This hero specializes in inflicting special effects on attacks and engaging in sustained combat.'
+  - id: 3
+    name: 'Multi-target'
+    description: 'This hero specializes in dealing area-of-effect (AoE) damage.'
+  - id: 4
+    name: 'Damage Dealer'
+    description: 'This hero excels at dealing damage, increasing final damage by 3%.'
+  - id: 5
+    name: 'Summon'
+    description: 'This hero can summon units to join the battle.'
+  - id: 6
+    name: 'Control'
+    description: 'This hero is capable of controlling enemies.'
+  - id: 7
+    name: 'Supporter'
+    description: 'This hero excels at offering strategic assistance, raising maximum HP by 5%.'
+  - id: 8
+    name: 'Buff'
+    description: 'This hero is able to provide buffs to teammates.'
+  - id: 9
+    name: 'Healer'
+    description: 'This hero specializes in dealing area-of-effect (AoE) damage.'
+  - id: 10
+    name: 'Debuff'
+    description: 'This hero is capable of inflicting debuffs to enemies.'
+  - id: 11
+    name: 'Burst Damage'
+    description: 'This hero specializes in using skills to inflict high burst damage in a short period.'
+  - id: 12
+    name: 'Single Target'
+    description: 'This hero specializes in dealing single-target damage.'

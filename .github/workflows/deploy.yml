@@ -1,0 +1,33 @@
+name: Deploy website
+
+on:
+  push:
+
+jobs:
+  gradle:
+    strategy:
+      matrix:
+        os: [ macos-latest ]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 60
+    steps:
+      - name: 'checkout source'
+        uses: actions/checkout@v4
+      - name: 'setup flutter'
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.22.3'
+          channel: 'stable'
+      - name: 'clean repository'
+        run: flutter clean
+      - name: 'get packages'
+        run: flutter pub get
+      - name: 'build static website'
+        run: flutter build web --release --base-href '/top-heroes-companion-app/'
+      - name: 'upload to github pages'
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: gh-pages
+          build_dir: ./build/web
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
