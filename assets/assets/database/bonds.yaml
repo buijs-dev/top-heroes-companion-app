@@ -1,0 +1,31 @@
+bonds:
+  - id: 1
+    heroes: [15,18]
+    description: 'The current team has gained HP +5%'
+  - id: 2
+    heroes: [ 19, 22, 24 ]
+    description: 'The current team has gained Damage Reduction +10%'
+  - id: 3
+    heroes: [ 20, 28, 41 ]
+    description: 'The current team has gained Damage +10%'
+  - id: 4
+    heroes: [ 21, 17]
+    description: 'The current team has gained HP +5%'
+  - id: 5
+    heroes: [23,34,35]
+    description: 'The current team has gained HP +5%'
+  - id: 6
+    heroes: [31, 25, 26]
+    description: 'The current team has gained Damage Reduction +10%'
+  - id: 7
+    heroes: [27, 29]
+    description: 'The current team has gained HP +5%'
+  - id: 8
+    heroes: [30,36,40]
+    description: 'The current team has gained Damage +10%'
+  - id: 9
+    heroes: [32, 33, 37]
+    description: 'The current team has gained Damage +10%'
+  - id: 10
+    heroes: [37, 40, 41]
+    description: 'The current team has gained Damage +15%'

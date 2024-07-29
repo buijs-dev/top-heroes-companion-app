@@ -1,0 +1,9 @@
+rarities:
+  - id: 1
+    name: 'Rare'
+  - id: 2
+    name: 'Epic'
+  - id: 3
+    name: 'Legendary'
+  - id: 4
+    name: 'Mythic'
